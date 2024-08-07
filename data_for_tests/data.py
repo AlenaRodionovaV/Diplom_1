@@ -1,4 +1,7 @@
 #  класс содержит вспомогательные тестовые данные для подстановки в юнит-тесты
+from praktikum.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
+
+
 class Data:
     #  название булочек
     BUN_NAME_1 = 'red bun'
@@ -23,3 +26,7 @@ class Data:
     #  стоимость начинок
     FILLING_PRICE_1 = 300
     FILLING_PRICE_2 = 300
+
+    #  типы начинок
+    TYPE_SAUCE = INGREDIENT_TYPE_SAUCE
+    TYPE_FILLING = INGREDIENT_TYPE_FILLING

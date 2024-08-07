@@ -31,7 +31,7 @@ class TestBun:
         assert bun.get_price() == price
 
     #  негативная проверка метода 'get_name' при возвращении пустого 'name'
-    def test_get_name_if_empty_negative(self):
+    def test_get_name_if_name_is_empty_negative(self):
         bun = Bun("", Data.BUN_PRICE_1)
         assert bun.get_name() == ""
 
