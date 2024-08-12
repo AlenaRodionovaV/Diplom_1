@@ -1,6 +1,6 @@
 from data_for_tests.data import Data
-from data_for_tests.mock_data import make_mock_bun, make_mock_sauce_1, make_mock_filling_2, make_mock_filling_1, \
-    make_mock_sauce_2, make_mock_burger
+from data_for_tests.mock_data import make_mock_bun, make_mock_sauce_1, make_mock_filling_1, \
+    make_mock_sauce_2
 from praktikum.burger import Burger
 from unittest.mock import call
 
